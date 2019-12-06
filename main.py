@@ -25,8 +25,8 @@ class Root(Tk):
         self.buttonReader.grid(column=2, row=2)
 
     def fileDialog(self):
-        self.filename = filedialog.askopenfilename(initialdir="/", title="Selecione uma imagem",
-                                                   filetypes=(("jpeg", "*.jpg"), ("png", "*.png")))
+        self.filename = filedialog.askopenfilename(initialdir="/home/ejrgeek/Imagens/", title="Selecione uma imagem",
+                                                   filetypes=(("png", "*.png"), ("jpeg", "*.jpg")))
         self.label = ttk.Label(self.labelFrame, text="")
         self.label.grid(column=1, row=2)
         self.path_image = self.filename
