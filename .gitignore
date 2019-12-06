@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+icon.ico
+text.mp3
+venv/
